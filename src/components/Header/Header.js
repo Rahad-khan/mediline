@@ -8,7 +8,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header  className='md:w-5/6 mx-auto'>
+    <header  className='md:w-5/6 p-4 md:p-0 mx-auto'>
       <nav className="bg-white border-gray-200 sm:py-2.5 rounded">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link to="/" className="flex items-center">
@@ -22,7 +22,7 @@ const Header = () => {
           className="block md:hidden"
           >
             {
-              open ? <ImCross/> : <CgMenu className="text-2xl font-extraboldbold"/>
+              open ? <ImCross className="text-green-400"/> : <CgMenu className="text-2xl font-extraboldbold text-green-400"/>
             }
           </button>
           <div className={`w-full md:block md:w-auto ${open ? 'block' : 'hidden'}`}>
