@@ -1,10 +1,16 @@
 import React from 'react';
+import Services from '../Services/Services';
+import Sliders from '../Sliders/Sliders';
 
 const Home = () => {
     return (
-        <div>
-            <h1>hello</h1>
-        </div>
+        <>
+            <main>
+            <Sliders></Sliders>
+            <Services></Services>
+            </main>
+            
+        </>
     );
 };
 
