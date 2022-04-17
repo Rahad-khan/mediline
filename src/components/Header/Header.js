@@ -3,9 +3,13 @@ import { Link } from "react-router-dom";
 import CustomLink from "../CustomLink/CustomLink";
 import { CgMenu } from "react-icons/cg";
 import { ImCross } from "react-icons/im";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../firebase.init";
+import { signOut } from "firebase/auth";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const [user] = useAuthState(auth);
 
   return (
     <header  className='md:w-5/6 p-4 md:p-0 mx-auto'>
@@ -47,10 +51,13 @@ const Header = () => {
                 </CustomLink>
               </li>
               <li className="mb-2">
-                <CustomLink
-                  to="/aboutme">
-                  About Me
+                {
+                  user ? <button className="font-medium" onClick={() => signOut(auth)}>Sign Out</button> : <CustomLink
+                  to="/login">
+                  Login
                 </CustomLink>
+                }
+                
               </li>
             </ul>
           </div>
