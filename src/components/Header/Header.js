@@ -46,6 +46,12 @@ const Header = () => {
                   About Me
                 </CustomLink>
               </li>
+              <li className="mb-2">
+                <CustomLink
+                  to="/aboutme">
+                  About Me
+                </CustomLink>
+              </li>
             </ul>
           </div>
         </div>

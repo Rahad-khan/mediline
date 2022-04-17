@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const PricingCard = ({service}) => {
     const {title,price,benifits} = service;
     return (
-        <div className="p-4 max-w-sm bg-white rounded-lg border shadow-md sm:p-8 ">
+        <div className="px-12 py-4 max-w-sm bg-white rounded-lg border shadow-md justify-self-center">
         <h5 className="mb-4 text-xl font-medium text-gray-500">{title}</h5>
         <div className="flex items-baseline text-gray-900">
             <span className="text-3xl font-semibold">$</span>
@@ -15,11 +15,11 @@ const PricingCard = ({service}) => {
         {/* <!-- List --> */}
         <ul className="my-7 space-y-5">
         {
-                benifits.map(b => 
-                <li className="flex space-x-3 items-center">
+                benifits.map((benifit, index) => 
+                <li key={index} className="flex space-x-3 items-center">
                 {/* <!-- Icon --> */}
                 <BsCheckCircleFill className="w-4 h-4 text-green-600"></BsCheckCircleFill>
-                <span className="text-base font-normal leading-tight text-gray-500">{b}</span>
+                <span className="text-base font-normal leading-tight text-gray-500">{benifit}</span>
             </li>)
             }
         </ul>

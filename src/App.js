@@ -9,7 +9,7 @@ import Error from './components/Error/Error';
 
 function App() {
   return (
-    <div className='p-4 md:p-0'>
+    <div>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
