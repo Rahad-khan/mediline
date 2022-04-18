@@ -19,7 +19,7 @@ const WhyUSe = () => {
             Work from the Heart
             </h5>
             <p class="mb-3 font-normal text-gray-700">
-            We care about your health with all our heart and sincerity so you can live happily.
+            Here care about your health with all our heart and sincerity so you can live happily.
             </p>
           </div>
         </div>
@@ -41,7 +41,7 @@ const WhyUSe = () => {
             Always Ready
             </h5>
             <p class="mb-3 font-normal text-gray-700">
-            We care about your health with all our heart and sincerity so you can live happily.
+            Always face new challenges and be ready to solve them.They snatched the victory
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const WhyUSe = () => {
             Accurate Diagnostics
             </h5>
             <p class="mb-3 font-normal text-gray-700">
-            We care about your health with all our heart and sincerity so you can live happily.
+            Proper treatment and heal the patient.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ const WhyUSe = () => {
             Yearly Checkup
             </h5>
             <p class="mb-3 font-normal text-gray-700">
-            We care about your health with all our heart and sincerity so you can live happily.
+            To give proper treatment and management, heal the disease.
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ const WhyUSe = () => {
             Pay in Instalments
             </h5>
             <p class="mb-3 font-normal text-gray-700">
-            We care about your health with all our heart and sincerity so you can live happily.
+           3 steps Payment installments is available...
             </p>
           </div>
         </div>

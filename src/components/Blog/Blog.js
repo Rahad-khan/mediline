@@ -3,11 +3,11 @@ import React from "react";
 const Blog = () => {
   return (
     <div className="md:w-5/6 mx-auto">
-      <div class="relative overflow-x-auto shadow-md sm:rounded-lg my-10">
+      <div class="relative overflow-x-auto sm:rounded-lg my-10">
         <h1 className="text-center text-2xl font-semibold my-5">
           Difference between authorization and authentication ?
         </h1>
-        <table class="w-full text-sm text-left text-gray-500">
+        <table class="w-full md:w-3/4 mx-auto text-sm text-left text-gray-500">
           <thead class="text-lg text-gray-700 uppercase bg-gray-50">
             <tr>
               <th scope="col" class="px-6 py-3">

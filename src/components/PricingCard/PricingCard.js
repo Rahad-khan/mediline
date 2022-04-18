@@ -1,10 +1,11 @@
 import React from 'react';
 import {BsCheckCircleFill} from 'react-icons/bs'
-import { Link } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 import {FaArrowAltCircleRight, FaArrowCircleRight} from 'react-icons/fa'
 
 const PricingCard = ({service}) => {
-    const {title,price,benifits,image} = service;
+    const navigate = useNavigate();
+    const {title,price,benifits,image,id} = service;
     return (
         <div className=" max-w-sm bg-white rounded-lg border shadow-md justify-self-center">
             <img className="h-52" src={image} alt="" />
@@ -26,9 +27,9 @@ const PricingCard = ({service}) => {
             </li>)
             }
         </ul>
-        <Link to='/checkout'>
-        <button type="button" className="text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-200 font-medium rounded-lg text-md px-5 py-2.5 inline-flex justify-center w-full text-center flex items-center">Be a Member <FaArrowCircleRight className="text-xl ml-1"></FaArrowCircleRight> </button>
-        </Link>
+        <button
+        onClick={() => navigate(`/checkout/${id}`)}
+         type="button" className="text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-200 font-medium rounded-lg text-md px-5 py-2.5 inline-flex justify-center w-full text-center items-center">Be a Member <FaArrowCircleRight className="text-xl ml-1"></FaArrowCircleRight> </button>
             </div>
         
         
