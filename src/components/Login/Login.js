@@ -26,6 +26,7 @@ const Login = () => {
 }
   return (
     <div className="my-10 md:w-5/6 mx-auto">
+      
       <form className="md:w-1/2 mx-auto w-5/6" onSubmit={handleLogIn}>
         <div className="mb-6">
           <label

@@ -1,12 +1,15 @@
 import React from 'react';
 import {BsCheckCircleFill} from 'react-icons/bs'
 import { Link } from 'react-router-dom';
+import {FaArrowAltCircleRight, FaArrowCircleRight} from 'react-icons/fa'
 
 const PricingCard = ({service}) => {
-    const {title,price,benifits} = service;
+    const {title,price,benifits,image} = service;
     return (
-        <div className="px-12 py-4 max-w-sm bg-white rounded-lg border shadow-md justify-self-center">
-        <h5 className="mb-4 text-xl font-medium text-gray-500">{title}</h5>
+        <div className=" max-w-sm bg-white rounded-lg border shadow-md justify-self-center">
+            <img className="h-52" src={image} alt="" />
+            <div className='p-5'>
+            <h5 className="mb-4 text-xl font-medium text-gray-500">{title}</h5>
         <div className="flex items-baseline text-gray-900">
             <span className="text-3xl font-semibold">$</span>
             <span className="text-5xl font-extrabold tracking-tight">{price}</span>
@@ -24,8 +27,10 @@ const PricingCard = ({service}) => {
             }
         </ul>
         <Link to='/checkout'>
-        <button type="button" className="text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-200 font-medium rounded-lg text-md px-5 py-2.5 inline-flex justify-center w-full text-center">Check Out</button>
+        <button type="button" className="text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-200 font-medium rounded-lg text-md px-5 py-2.5 inline-flex justify-center w-full text-center flex items-center">Be a Member <FaArrowCircleRight className="text-xl ml-1"></FaArrowCircleRight> </button>
         </Link>
+            </div>
+        
         
     </div>
     );

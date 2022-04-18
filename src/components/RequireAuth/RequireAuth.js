@@ -8,7 +8,9 @@ const RequireAuth = ({children}) => {
     const [user, loading] = useAuthState(auth);
     const location = useLocation();
     if(loading){
-        return <Loading></Loading>
+        return <div className='w- full h-screen flex justify-center items-center'>
+            <Loading></Loading>
+        </div>
     }
     if(!user){
         return <Navigate to="/login" state={{ from: location }} replace />;

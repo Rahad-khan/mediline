@@ -1,5 +1,6 @@
 [
     {
+      "image": "./images/service3.jpg",
       "id": "625bd02570fdd6f2b3b67e68",
       "price": "19",
       "title": "Basic Service",
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "image": "./images/service2.jpg",
       "id": "625bd025c00f43e1d660f9fe",
       "price": "39",
       "title": "Popular Service",
@@ -18,10 +20,11 @@
         "Free Equipment Use",
         "2 Days Appointment / Week",
         "24/7 Support",
-        "Emergeny Support"
+        "Full Emergeny Support"
       ]
     },
     {
+      "image": "./images/service1.jpg",
       "id": "625bd025bee8f218b5543d13",
       "price": "59",
       "title": "Premium Service",
@@ -29,7 +32,7 @@
         "Free Equipment Use",
         "3 Days Appointment / Week",
         "24/7 Support",
-        "Emergeny Support"
+        "Full Emergeny Support"
       ]
     }
   ]
