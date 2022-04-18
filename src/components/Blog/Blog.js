@@ -2,36 +2,36 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="md:w-5/6 mx-auto">
-      <div class="relative overflow-x-auto sm:rounded-lg my-10">
+    <div className="md:w-5/6 mx-auto p-3 md:p-0">
+      <div className="relative overflow-x-auto sm:rounded-lg my-10">
         <h1 className="text-center text-2xl font-semibold my-5">
           Difference between authorization and authentication ?
         </h1>
-        <table class="w-full md:w-3/4 mx-auto text-sm text-left text-gray-500">
-          <thead class="text-lg text-gray-700 uppercase bg-gray-50">
+        <table className="w-full md:w-3/4 mx-auto text-sm text-left text-gray-500">
+          <thead className="text-lg text-gray-700 uppercase bg-gray-50">
             <tr>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3">
                 Authentication
               </th>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3">
                 Authorization
               </th>
             </tr>
           </thead>
           <tbody>
-            <tr class="bg-white border-b  hover:bg-gray-50">
-              <td class="px-6 py-4">
+            <tr className="bg-white border-b  hover:bg-gray-50">
+              <td className="px-6 py-4">
                 Check details about the person details for identify him.
               </td>
-              <td class="px-6 py-4">Check what things can access the user.</td>
+              <td className="px-6 py-4">Check what things can access the user.</td>
             </tr>
-            <tr class="bg-white border-b  hover:bg-gray-50">
-              <td class="px-6 py-4">It happened before authorization.</td>
-              <td class="px-6 py-4">It happened before authentication.</td>
+            <tr className="bg-white border-b  hover:bg-gray-50">
+              <td className="px-6 py-4">It happened before authorization.</td>
+              <td className="px-6 py-4">It happened before authentication.</td>
             </tr>
-            <tr class="bg-white border-b  hover:bg-gray-50">
-              <td class="px-6 py-4">Verify user's credential</td>
-              <td class="px-6 py-4">Validates user's permission</td>
+            <tr className="bg-white border-b  hover:bg-gray-50">
+              <td className="px-6 py-4">Verify user's credential</td>
+              <td className="px-6 py-4">Validates user's permission</td>
             </tr>
           </tbody>
         </table>
