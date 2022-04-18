@@ -30,7 +30,7 @@ const WhyUSe = () => {
             Serve With Smile
             </h5>
             <p class="mb-3 font-normal text-gray-700">
-            We care about your health with all our heart and sincerity so you can live happily.
+            A day start with smile  to relief the patient's pain. Serve the symptomatic way
             </p>
           </div>
         </div>

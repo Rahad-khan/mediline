@@ -14,19 +14,19 @@ const Sliders = () => {
         <Carousel showThumbs= {false} autoPlay={true} infiniteLoop={true} showStatus={false}>
                 <div>
                     <img className='w-full max-h-screen object-cover' src={slide1} alt='' />
-                    <p className="legend">Legend 1</p>
+                    <p className="legend">Compassion and collaboration</p>
                 </div>
                 <div>
                 <img className='w-full max-h-screen object-cover' src={slide2} alt='' />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend">Assurances to make healthy life</p>
                 </div>
                 <div>
                 <img className='w-full max-h-screen object-cover' src={slide3} alt='' />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend">Collaboration for the cure of disease</p>
                 </div>
                 <div>
                 <img className='w-full max-h-screen object-cover' src={slide4} alt='' />
-                    <p className="legend">Legend 4</p>
+                    <p className="legend">Control the diseases and gives us Cheerful life</p>
                 </div>
             </Carousel>
     );
