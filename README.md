@@ -11,7 +11,8 @@ In the website, Explore:
 * In about me route, have details about me and my vision
 * Login , register system added.
 * You can use Email pass System.
-* Also can use Google and facebook sig
+* Also can use Google and facebook sign in System
+### Technologies Used
 * React
 * Tailwind css
 * React Router
