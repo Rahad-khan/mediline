@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
 import Services from '../Services/Services';
 import Sliders from '../Sliders/Sliders';
 import WhyUSe from '../WhyUse/WhyUSe';
@@ -14,7 +13,6 @@ const Home = () => {
             <WhyUSe></WhyUSe>
             </section>
             </main>
-            <Footer></Footer>
         </>
     );
 };
