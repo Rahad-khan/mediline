@@ -16,8 +16,9 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
+        <Route path='/home' element={<Home/>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
-        <Route path='/aboutme' element={<AboutMe/>}></Route>
+        <Route path='/about' element={<AboutMe/>}></Route>
         <Route path='/checkout' element={
           <RequireAuth>
             <CheckOut/>
